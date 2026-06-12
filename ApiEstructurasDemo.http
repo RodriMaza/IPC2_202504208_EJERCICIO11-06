@@ -1,0 +1,11 @@
+@ApiEstructurasDemo_HostAddress = http://localhost:5173
+
+GET {{ApiEstructurasDemo_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ApiEstructurasDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
